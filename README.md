@@ -45,7 +45,7 @@ This project is under active development. Features, fixes and experiments may ch
 
 Special thanks to:
 
-- **neversoft fangirl** — creator of the GH community Discord
+- **neversoft fangirl** — creator of the WoR+ Discord community
 - **Discord Community** — https://discord.gg/JaZ8mg3Jb
 
 Special thanks to the WoR+ Discord community and everyone who helped with testing, feedback and support during development.
