@@ -1,78 +1,72 @@
-> [!CAUTION]
-> This project is in early development. Expect things to not work quite right and there to be significant changes and breaking public API updates as development progresses. Contributions and feedback are welcome, but please be aware that the codebase is still evolving rapidly.
+# GHWoR-ReXGlue
 
-<h1 align="center">
-  <br>
-  <a href="https://github.com/rexglue/rexglue-sdk">
-    <img src="https://github.com/rexglue/rexglue-media/blob/main/ReX_Banner.png" alt="ReXGlue banner">
-  </a>
-  <br>
-  <br>
-  <a href="https://discord.gg/CNTxwSNZfT">
-    <img src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white" alt="Discord">
-  </a>
-  <a href="https://github.com/rexglue/rexglue-sdk/stargazers">
-    <img src="https://img.shields.io/github/stars/rexglue/rexglue-sdk" alt="rexglue-sdk stargazers">
-  </a>
-</h1>
+## Guitar Hero: Warriors of Rock PC Compatibility Project
 
-ReXGlue converts Xbox 360 PowerPC code into portable C++ that runs natively on modern platforms.
+GHWoR-ReXGlue is a community-driven project focused on improving compatibility and runtime behavior of **Guitar Hero: Warriors of Rock (Xbox 360)** on PC through a ReXGlue-based runtime environment.
 
-ReXGlue is heavily rooted on the foundations of [Xenia](https://github.com/xenia-project), the Xbox 360 emulator. Rather than interpreting or JIT-compiling PPC instructions at runtime, ReXGlue takes a different path: it generates C++ source code ahead of time, an approach inspired by [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) and [rexdex's recompiler](https://github.com/rexdex/recompiler).
-
-Latest SDK builds and releases are published on [GitHub Releases](https://github.com/rexglue/rexglue-sdk/releases). Join the [Discord server](https://discord.gg/CNTxwSNZfT) for updates and share what you have created.
-
-## Builds
-
-| Channel | CI | Download |
-| --- | --- | --- |
-| Release | [![win-amd64](https://github.com/rexglue/rexglue-sdk/actions/workflows/build-win-amd64.yaml/badge.svg)](https://github.com/rexglue/rexglue-sdk/actions/workflows/build-win-amd64.yaml) [![linux-amd64](https://github.com/rexglue/rexglue-sdk/actions/workflows/build-linux-amd64.yaml/badge.svg)](https://github.com/rexglue/rexglue-sdk/actions/workflows/build-linux-amd64.yaml) [![linux-arm64](https://github.com/rexglue/rexglue-sdk/actions/workflows/build-linux-aarch64.yaml/badge.svg)](https://github.com/rexglue/rexglue-sdk/actions/workflows/build-linux-aarch64.yaml) | [Latest stable](https://github.com/rexglue/rexglue-sdk/releases/latest) |
-| Nightly | [![nightly](https://github.com/rexglue/rexglue-sdk/actions/workflows/nightly.yaml/badge.svg)](https://github.com/rexglue/rexglue-sdk/actions/workflows/nightly.yaml) | [Latest pre-release](https://github.com/rexglue/rexglue-sdk/releases?q=prerelease%3Atrue) |
-
-## Quickstart
-
-For quick start guide, full CLI reference, and config file options, see the [wiki](https://github.com/rexglue/rexglue-sdk/wiki).
-
-# **Disclaimer**
-ReXGlue is not affiliated with nor endorsed by Microsoft or Xbox. It is an independent project created for educational and development purposes. All trademarks and copyrights belong to their respective owners. 
-
-This project is not intended to promote piracy nor unauthorized use of copyrighted material. Any misuse of this software to endorse or enable this type of activity is strictly prohibited.
-
-
-# Credits
-
-## ReXGlue
-- [Tom (crack)](https://github.com/tomcl7) - Project Founder
-- [Loreaxe](https://github.com/Loreaxe) - Linux Contributor
-- [mystixor](https://github.com/Mystixor) - Windows Contributor
-- [Graine25](https://github.com/Graine25) - Project Support
-- [Carlos Estrague (mrcmunir)](https://github.com/mrcmunir) - Linux / ARM64 Contributor
-- [sanjay900](https://github.com/sanjay900) - Linux / SDL Contributor
-- [Toby](https://github.com/TbyDtch) - Project Support
-- [Roxxsen](https://github.com/Roxxsen) - CI/CD Contributor
-
-The list above is not exhaustive. Thanks to everyone in the ReXGlue community who contributes code, files issues, tests builds, and keeps the project moving.
-
-## Very Special Thank You:
-- [Project Xenia](https://github.com/xenia-project/xenia/tree/master/src/xenia) - Their invaluable work on Xbox 360 emulation laid the groundwork for ReXGlue's development. This project (and numerous others) would not exist without their hard work and dedication.
-- [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) - For pioneering the modern static recompilation approach for Xbox 360. A lot of the codegen analysis logic and instruction translations are based on their work. Thank you!
-- [rexdex's recompiler](https://github.com/rexdex/recompiler) - The OG static recompiler for Xbox 360. 
-- Many others in the Xbox 360 homebrew and modding communities whose work and research have contributed to the collective knowledge that makes projects like this possible.
+The goal is to provide a more accurate and stable experience while preserving the original game's behavior, including music timing, gameplay systems and Xbox 360 features.
 
 ---
 
-## 🙏 Agradecimientos especiales
+## Project Status
 
-Un agradecimiento especial a:
+🚧 **Alpha Development**
 
-- **neversoft fangirl** — creadora del Discord de la comunidad GH
-- **Discord** — https://discord.gg/JaZ8mg3Jb
+This project is under active development. Features, fixes and experiments may change between versions.
 
-Gracias por crear un espacio donde la comunidad de Guitar Hero puede compartir información, ayudar en proyectos y mantener viva la saga.
+---
 
-## 🤘 Agradecimientos a la comunidad
+## Current Focus
 
-Gracias a todas las personas que aportaron apoyo, conocimiento, pruebas, información y motivación durante el desarrollo de este proyecto:
+### 🎵 Audio & Music Synchronization
+- Improved XMA/audio handling.
+- Work on long-song stability.
+- Synchronization improvements for gameplay timing.
+
+### 🎮 Guitar Hero Compatibility
+- Warriors of Rock runtime adaptations.
+- Xbox 360 behavior compatibility improvements.
+- Controller and instrument support improvements.
+
+### ⚙️ Runtime Improvements
+- Timing and synchronization systems.
+- Graphics/runtime stability work.
+- Performance analysis and optimization.
+
+### 🛠 Launcher & Tools
+- Custom project tools.
+- Configuration management.
+- Development utilities for testing and debugging.
+
+---
+
+## Experimental Work
+
+Some research branches and experiments are not considered final features.
+
+Examples:
+- Experimental rendering paths.
+- Native GPU investigations.
+- Performance prototypes.
+
+These experiments are kept separate from validated compatibility improvements.
+
+---
+
+## Credits
+
+### 🙏 Special Thanks
+
+Special thanks to:
+
+- **neversoft fangirl** — creator of the GH community Discord
+- **Discord Community** — https://discord.gg/JaZ8mg3Jb
+
+Thank you for providing a place where the Guitar Hero community can share knowledge, testing and support.
+
+### 🤘 Community Thanks
+
+Thanks to everyone who contributed support, testing, information and motivation:
 
 - GH Nostalgic
 - daddypalpatine
@@ -87,4 +81,10 @@ Gracias a todas las personas que aportaron apoyo, conocimiento, pruebas, informa
 - zerq5fc
 - WoR+ Certified Femboy Fan™
 
-Su apoyo y aportes ayudaron a que este proyecto siguiera avanzando.
+---
+
+## Disclaimer
+
+This project is created for research, preservation and compatibility purposes.
+
+Guitar Hero: Warriors of Rock and related assets remain property of their respective owners.
