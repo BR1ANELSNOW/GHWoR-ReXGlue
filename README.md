@@ -58,3 +58,33 @@ The list above is not exhaustive. Thanks to everyone in the ReXGlue community wh
 - [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) - For pioneering the modern static recompilation approach for Xbox 360. A lot of the codegen analysis logic and instruction translations are based on their work. Thank you!
 - [rexdex's recompiler](https://github.com/rexdex/recompiler) - The OG static recompiler for Xbox 360. 
 - Many others in the Xbox 360 homebrew and modding communities whose work and research have contributed to the collective knowledge that makes projects like this possible.
+
+---
+
+## 🙏 Agradecimientos especiales
+
+Un agradecimiento especial a:
+
+- **neversoft fangirl** — creadora del Discord de la comunidad GH
+- **Discord** — https://discord.gg/JaZ8mg3Jb
+
+Gracias por crear un espacio donde la comunidad de Guitar Hero puede compartir información, ayudar en proyectos y mantener viva la saga.
+
+## 🤘 Agradecimientos a la comunidad
+
+Gracias a todas las personas que aportaron apoyo, conocimiento, pruebas, información y motivación durante el desarrollo de este proyecto:
+
+- GH Nostalgic
+- daddypalpatine
+- RazQ
+- mattTheWolf
+- DanRock
+- saxophonegf
+- Haze_054
+- biduan82
+- Damstructions
+- Josue2132xd
+- zerq5fc
+- WoR+ Certified Femboy Fan™
+
+Su apoyo y aportes ayudaron a que este proyecto siguiera avanzando.
