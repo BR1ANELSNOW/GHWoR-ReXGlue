@@ -48,7 +48,7 @@ Special thanks to:
 - **neversoft fangirl** — creator of the GH community Discord
 - **Discord Community** — https://discord.gg/JaZ8mg3Jb
 
-Thank you for providing a place where the Guitar Hero community can share knowledge, testing and support.
+Special thanks to the WoR+ Discord community and everyone who helped with testing, feedback and support during development.
 
 ### 🤘 Community Thanks
 
