@@ -38,20 +38,6 @@ This project is under active development. Features, fixes and experiments may ch
 - Configuration management.
 - Development utilities for testing and debugging.
 
----
-
-## Experimental Work
-
-Some research branches and experiments are not considered final features.
-
-Examples:
-- Experimental rendering paths.
-- Native GPU investigations.
-- Performance prototypes.
-
-These experiments are kept separate from validated compatibility improvements.
-
----
 
 ## Credits
 
