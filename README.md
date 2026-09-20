@@ -21,7 +21,7 @@ I personally don't like how the PS3 version looks, and apparently that minor com
 
 Do I fully understand everything I'm doing?
 
-Absolutely not.
+Absolutely not... or yes xD.
 
 Am I learning things along the way?
 
